@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Passion One";
+    src: url(Fontes/Passion_One/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: Sriracha;
+    src: url(Fontes/Sriracha/Sriracha-Regular.ttf);
+}
+
+:root{
+    --cor1: var(#000);
+    --cor2: var(#333333);
+    --cor3: var(#A9A9A9);
+    --cor4: var(#FFFFFF);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    
+    max-width: 100%;
+    min-height: 200px;
+    margin: auto;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+header > div{
+    padding: 50px;
+}
+
+header > div > h1{
+    /* font-size: 120px; */
+    font-size: 10vw;
+    font-family: "Passion One";
+}
+
+header > div > p{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+header > div > p > a{
+    text-decoration: none;
+    color: white;
+
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+main > div.container2{
+    max-width: 400px;
+    min-height: 300px;
+
+    margin: 20px 0px 20px 20px;
+
+    font-family: sriracha;
+    font-size: 2.5em;
+}
+
+#article1{
+    color: black;
+    line-height: 2.2em;
+}
+
+main > div.container{
+    position: relative;
+
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    max-width: 100%;
+    min-height: 800px;
+}
+
+#article2{
+    position: absolute;
+
+    max-width: 400px;
+    min-height: 600px;
+
+    margin: 40px 0px 0px 20px;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-family: sriracha;
+    font-size: 2.5em;
+    line-height: 2.2em;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#article5{
+    position: absolute;
+
+    max-width: 400px;
+    height: 695px;
+
+    margin: 40px 0px 0px 20px;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-family: sriracha;
+    font-size: 2.5em;
+    line-height: 2.2em;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carta{
+    background-image: url(imagens/background002.jpg);
+}
+
+footer{
+    min-height: 40px;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+}
+
+footer > p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+footer > p > a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
