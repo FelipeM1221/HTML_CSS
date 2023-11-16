@@ -41,9 +41,9 @@ header > div{
 }
 
 header > div > h1{
-    /* font-size: 120px; */
     font-size: 10vw;
     font-family: "Passion One";
+    font-variant: small-caps;
 }
 
 header > div > p{
@@ -58,6 +58,10 @@ header > div > p > a{
 
     font-family: sans-serif;
     font-weight: bolder;
+}
+
+header > div > p > a:hover{
+    text-decoration: underline;
 }
 
 main > div.container2{
