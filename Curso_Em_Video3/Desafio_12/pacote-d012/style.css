@@ -73,7 +73,7 @@ main > div.container2{
     margin: 20px 0px 20px 20px;
 
     font-family: sriracha;
-    font-size: clamp(1.70em, 1em + 3vw, 2.5em);
+    font-size: clamp(1.68em, 1em + 3vw, 2.5em);
 }
 
 #article1{
@@ -116,6 +116,7 @@ main > div.container{
 
 #article5{
     display: inline-block;
+    padding: 10px;
 
     border-radius: 5px;
 
