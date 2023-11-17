@@ -73,7 +73,6 @@ main > div.container2{
     margin: 20px 0px 20px 20px;
 
     font-family: sriracha;
-    /* font-size: 4vw; */
     font-size: clamp(1.70em, 1em + 3vw, 2.5em);
 }
 
@@ -91,19 +90,21 @@ main > div.container{
     background-attachment: fixed;
 
     max-width: 100%;
-    min-height: 800px;
+    max-height: 800px;
 }
 
 #article2{
-    display: inline;
-    position: absolute;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
 
-    margin: 40px 0px 0px 20px;
-    border-radius: 5px;
-
-    font-family: sriracha;
-    font-size: clamp(1.70em, 1em + 3vw, 2.5em);
     line-height: 2.2em;
+    font-size: clamp(1.70em, 1em + 3vw, 2.5em);
+    font-family: sriracha;
+    text-shadow: 2px 2px 0px black;
 
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -114,13 +115,7 @@ main > div.container{
 }
 
 #article5{
-    position: absolute;
-
-    max-width: 400px;
-    height: 695px;
-
-    margin: 40px 0px 0px 20px;
-    padding: 10px;
+    display: inline-block;
 
     border-radius: 5px;
 
@@ -140,7 +135,20 @@ main > div.container{
     background-image: url(imagens/background002.jpg);
 }
 
+#article5{
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    border-radius: 10px;
+
+    text-shadow: 2px 2px 0px black;
+
+    font-size: clamp(1.70em, 1em + 3vw, 2.5em);
+}
+
 footer{
+    max-width: 100%;
     min-height: 40px;
     text-align: center;
 
@@ -153,7 +161,7 @@ footer > p{
     padding-bottom: 5px;
     font-weight: none;
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: clamp(1.2em, 1em + 3vw, 1em);
 }
 
 footer > p > a{
